@@ -5,14 +5,14 @@ En esta API se utilizan los siguiente código HTTP
 
 Código | Significado
 ---------- | -------
-400 | Bad Request -- Your request is invalid.
-401 | Unauthorized -- Your API key is wrong.
-403 | Forbidden -- The dish requested is hidden for administrators only.
-404 | Not Found -- The specified dish could not be found.
-405 | Method Not Allowed -- You tried to access a dish with an invalid method.
-406 | Not Acceptable -- You requested a format that isn't json.
-410 | Gone -- The dish requested has been removed from our servers.
-418 | I'm a teapot.
-429 | Too Many Requests -- You're requesting too many dishs! Slow down!
-500 | Internal Server Error -- We had a problem with our server. Try again later.
-503 | Service Unavailable -- We're temporarily offline for maintenance. Please try again later.
+400 | Solicitud incorrecta – Solicitud invalida
+401 | No autorizado – Clave del API incorrecta
+403 | Prohibido -- El recurso solicitado está oculto solo para administradores.
+404 | No encontrado – El recurso especifico no fue encontrado
+405 | Método no permitido -- Se trató de acceder al recurso con un método invalido
+406 | Inaceptable -- Se solicitó un formato que no es json
+410 | Quitado -- El recurso solicitado fue removido de los servidores
+418 | Soy una tetera
+429 | Muchas solicitudes -- Se solicitaron muchos recursos
+500 | Error de servidor interno -- Existe un problema con el servidor, intenta más tarde
+503 | Servicio no disponible -- Estamos temporalmente fuera de servicio por mantenimiento, por favor intente mas tarde
