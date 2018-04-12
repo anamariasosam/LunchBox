@@ -1,9 +1,9 @@
-# Errors
+# Códigos HTTP
 
-The LunchBox API uses the following error codes:
+En esta API se utilizan los siguiente código HTTP
 
 
-Error Code | Meaning
+Código | Significado
 ---------- | -------
 400 | Bad Request -- Your request is invalid.
 401 | Unauthorized -- Your API key is wrong.
